@@ -1,2 +1,23 @@
 
 /* Your CSS Code here. */
+.styled-table{
+	 padding: 10px 50px; 
+	width: 50%;                
+   margin: 30px auto;         
+  border-collapse: collapse; 
+  font-family: Arial, sans-serif;
+  border: 1px solid black;
+	
+}
+styled-table th,
+.styled-table td {
+  border: 1px solid black;     
+  padding: 10px 50px;          
+  text-align: left;           
+}
+
+.styled-table th {
+  background-color: #2980b9;  /* header background */
+  color: white;                /* header text color */
+  font-weight: bold;
+}
